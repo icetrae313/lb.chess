@@ -1,4 +1,4 @@
-import { Component, Inject, inject, OnInit } from '@angular/core';
+import { Component} from '@angular/core';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +7,9 @@ import { Component, Inject, inject, OnInit } from '@angular/core';
 })
 export class AppComponent{
   title =  'lb-chess'
+  nav_state = false
+  toggleNav() {
+    this.nav_state = ! this.nav_state
+    console.log(this.nav_state)
+  }
 }
