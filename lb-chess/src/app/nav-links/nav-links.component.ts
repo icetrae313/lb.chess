@@ -2,11 +2,11 @@ import { Component } from '@angular/core';
 import { AppComponent } from '../app.component';
 
 @Component({
-  selector: 'app-main',
-  templateUrl: './main.component.html',
-  styleUrls: ['./main.component.css']
+  selector: 'app-nav-links',
+  templateUrl: './nav-links.component.html',
+  styleUrls: ['./nav-links.component.css']
 })
-export class MainComponent {
+export class NavLinksComponent {
   constructor(private app:AppComponent) {}
 
   navStatus() {

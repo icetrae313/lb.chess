@@ -5,12 +5,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NavToggleComponent } from './nav-toggle/nav-toggle.component';
 import { MainComponent } from './main/main.component';
+import { NavLinksComponent } from './nav-links/nav-links.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavToggleComponent,
-    MainComponent
+    MainComponent,
+    NavLinksComponent
   ],
   imports: [
     BrowserModule,

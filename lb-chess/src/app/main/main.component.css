@@ -1,0 +1,13 @@
+main {
+    background-color: aliceblue;
+    height:100vh;
+    width: 100vw;
+    position: relative;
+    z-index: 2;
+    transition: transform 500ms cubic-bezier(.13,.53,.38,.97);
+}
+
+#open {
+    transform: translateY(-50%);
+}
+
